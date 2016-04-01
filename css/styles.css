@@ -1,3 +1,37 @@
+#aboutSection {
+  background-color: #8FBC8E;
+}
+
 #result {
   display: none;
+}
+
+.about {
+  background-color: #8FBC8E;
+  margin-left: -10px;
+  padding-bottom: 350px;
+  padding-top: 20px;
+}
+
+.about h3 {
+margin: 10px;
+}
+
+.about h4 {
+  color: #F5DFB3;
+  margin: 10px;
+}
+
+.about p {
+  color: #fff;
+  margin: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #F5DFB3
+}
+
+body {
+  background-color: #E6E6E6;
 }

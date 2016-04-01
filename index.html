@@ -9,37 +9,58 @@
   <title>Numbers and the words Ping and Pong | By Jake</title>
 </head>
 <body>
-
-  <div class="container">
-    <div class="setup">
-      <h2>Wanna play a game...?</h2>
-      <h3>Here are the rules:</h3>
-      <ol>
-        <li>The game counts from 1 to your number</li>
-        <li>Numbers divisible by 3 become "ping!"</li>
-        <li>Numbers divisible by 5 become "pong!"</li>
-        <li>Numbers divisble by 15 become "pingpong!"</li>
-      </ol>
-
-    </div>
+  <div class="jumbotron">
+    <h1>Ping-Pong</h1>
   </div>
 
-  <div class="container">
-    <div id="game">
-      <form class ="form-inline">
-        <div class="form-group">
-          <label for="userEntry">Enter a number greater than 0 here:</label>
-          <input id="input" type="text" class="form-control" placeholder="Enter a your number here.">
+
+</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="aboutSection">
+        <div id="aboutBox">
+          <div class="col-md-2">
+            <div class="about">
+              <h3><strong>About Ping Pong</strong></h3>
+              <h4>Created By:</h4>
+              <p>Jake Richmond</p>
+              <h4>GitHub UserName</h4>
+              <p><a href="https://github.com/JakeOrichmond">JakeOrichmond</a></p>
+            </div>
+          </div>
         </div>
-        <button type="submit" class="btn btn-success">Let's Do This!!!</button>
-      </form>
-    </div>
 
-
-    <div>
-      <ul id="result"></ul>
-    </div>
+      <div class="col-md-10">
+        <div class="setup">
+          <h2>Wanna play a game...?</h2>
+          <h3>Here are the rules:</h3>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>The game counts from 1 to your number</li>
+            <li>Numbers divisible by 3 become "ping!"</li>
+            <li>Numbers divisible by 5 become "pong!"</li>
+            <li>Numbers divisble by 15 become "pingpong!"</li>
+          </ol>
+        </div>
+        <div id="game">
+          <form class ="form-inline">
+            <div class="form-group">
+              <label for="userEntry">Enter a number greater than 0 here:</label>
+              <input id="input" type="text" class="form-control" placeholder="Enter a your number here.">
+            </div>
+            <button type="submit" class="btn btn-success">Let's Do This!!!</button>
+          </form>
+        </div>
+        <div>
+          <ul id="result"></ul>
+        </div>
+      </div>
+      </div>
   </div>
+</div>
+
+  <div class="container">
+
 
 
 </body>
